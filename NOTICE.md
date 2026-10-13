@@ -8,10 +8,12 @@ https://github.com/LittleBigBug/QuickBMS/blob/master/src/compression/rage_xfs.c
 
 Its original attribution is retained here:
 
-> RA decompression class version 1.0  
-> (c) 2006 Benjamin Haisch  
-> email: john_doe@techie.com  
-> You may use this code freely as long as you give me credit for it :)
+```text
+RA decompression class version 1.0
+(c) 2006 Benjamin Haisch
+email: john_doe@techie.com
+You may use this code freely as long as you give me credit for it :)
+```
 
 This Python implementation adds explicit checks for truncation, tree bounds, invalid backreferences, declared output sizes and cyclic trees. Bitstream and raw-byte reads intentionally share one cursor.
 
